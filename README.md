@@ -4,16 +4,17 @@ This repository contains the software components developed under the CERTIFY res
 
 ## Structure
 
-- `component-1/`  
-  - `src/` – Source code  
-  - `data/` – Datasets or data-related scripts  
-  - `README.md` – Description of the component  
-
-- `component-2/`  
-  - `src/`  
-  - `data/`  
-  - `README.md`  
-
+- `package-1/`
+  - `plane-1/`
+    - `component-1/`  
+      - `src/` – Source code  
+      - `data/` – Datasets or data-related scripts  
+      - `README.md` – Description of the component  
+    - `component-2/`  
+      - `src/`  
+      - `data/`  
+      - `README.md`  
+  - `plane-2/`
 ...
 
 ## Access
