@@ -1,21 +1,21 @@
-# CERTIFY - aCtive sEcurity foR connecTed devIces liFecYcle
+# CERTIFY – aCtive sEcurity foR connecTed devIces liFecYcle
 
-This repository contains the software components developed under the CERTIFY research project. Each component is organized in its own directory, and includes source code, a description, and associated data (e.g., datasets or data processing scripts).
+This repository contains the software components developed under the CERTIFY research project. According to the architecture, depicted in the following figure, components are grouped by functional planes and organized as separate directories. Each component includes a description, execution package (source code, binaries, or Docker files), and associated data such as datasets or processing scripts.
 
 ## Structure
 
-- `package-1/`
-  - `plane-1/`
-    - `component-1/`  
-      - `src/` – Source code  
-      - `data/` – Datasets or data-related scripts  
-      - `README.md` – Description of the component  
-    - `component-2/`  
-      - `src/`  
-      - `data/`  
-      - `README.md`  
-  - `plane-2/`
-...
+- `plane-1/`
+  - `component-1/`  
+    - `package/` – Code, executables, Docker configurations, or other run-related files  
+    - `data/` – Datasets or scripts related to input/output handling  
+    - `README.md` – Description of the component  
+  - `component-2/`  
+    - `package/`  
+    - `data/`  
+    - `README.md`  
+- `plane-2/`
+  - `component-X/`  
+    - ...
 
 ## Access
 
